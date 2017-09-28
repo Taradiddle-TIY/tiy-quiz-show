@@ -37,7 +37,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
 # gem 'cocoon'
 gem 'bootstrap_form'
-
+gem 'rails_12factor', group: :production
+ruby "2.3.3"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -60,6 +61,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gem 'rails_12factor', group: :production
-ruby "2.3.3"
