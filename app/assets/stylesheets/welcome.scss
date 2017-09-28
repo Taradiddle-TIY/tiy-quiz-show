@@ -57,9 +57,8 @@ h2, h3{
   margin-top:  0vw;
 }
 
-// #navbar {
-//     margin-bottom: 0;
-// }
+#navbar {
+}
 
 header{
   text-align:center;
@@ -69,7 +68,7 @@ header{
   padding-bottom: 3vw;
 }
 
-header .container{
+header{
   padding-top:100px;
   padding-bottom:50px;
 }
@@ -93,6 +92,16 @@ header .container{
   color: white;
 }
 
+#login{
+  opacity: 0.01;
+  background-color: rgb(24, 188, 156);
+  border-radius: 100%;
+  color: white;
+  border: 2px solid black;
+  width: 30vw;
+  height: 30vw;
+}
+
 .welcome-page a{
   opacity: .5;
 }
@@ -100,18 +109,44 @@ header .container{
 .welcome-table{
   background-color: grey;
 }
-.img-responsive{
-  z-index: 1;
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+.flex{
+  display: flex;
+  justify-content: center;
 }
 
-.title{
-z-index: 100;
-position: absolute;
-left: 45vw;
-top: 26vw;
-font-size: 3vw;
+.title-block{
+  // display: flex;
+  background-image:     url('http://www.youthforum.org/youth-rights-info-tool/wp-content/themes/yfj-youthrightsinfotool/img/svg/title-7.svg');
+  // border: 2px solid blue;
+  height: 30vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30vw;
 }
+// .img-responsive{
+//   z-index: 1;
+//   position: fixed;
+//   top: 1vw;
+//   left: 35vw;
+//   border: 2px solid black;
+// }
+
+.title{
+z-index: 2;
+position: relative;
+top: 14vw;
+font-size: 3vw;
+right: 16vw;
+width: 3vw;
+height: 1vw;
+// opacity: 2;
+// color: black;
+  // border: 2px solid black;
+
+}
+
+// header{
+//   height: 40vw;
+// }
